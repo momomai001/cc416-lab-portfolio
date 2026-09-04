@@ -26,3 +26,17 @@ git push -u origin add-workflow-section
 
 ### Part 13 - PR Workflow
 This README is created via Pull Request workflow as required in Part 13.
+
+## Part 14 - Common Problems and Fixes
+
+Problem: git is not recognized
+Fix: Install Git then reopen PowerShell, check git --version
+
+Problem: origin already exists  
+Fix: git remote -v tapos git remote set-url origin https://github.com/momomai001/cc416-lab-portfolio.git
+
+Problem: nothing to commit
+Fix: git status - tapos Ctrl+S muna sa file bago git add .
+
+Problem: accidentally staged many files
+Fix: git restore --staged . tapos git add lab_03.02_ON_YOUR_OWN lang
